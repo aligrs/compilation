@@ -1,0 +1,5 @@
+Question 1 : 
+	Le visiteur pour la 'Sequence AST node' fonctione de la maniere qui suis :
+		- On crée une variable qui sera initialiser a nullptr et qui sauvegardera tout les résultat de l'évaluation des expressions.
+		- La boucle for a parcourir les feuilles de l'arbre (les expressions), et enregistre le resultat dans la variable qu'on déclarer au par avant.
+		- tout les résultat son renvoyer a la fin, si la séquence est vide la variable retourner est nullptr (valeur atribuer par default), sinon on retourne les valeurs des branches évaluer.

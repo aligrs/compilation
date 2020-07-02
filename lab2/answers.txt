@@ -1,0 +1,3 @@
+2- le role des fichier présent dans src/ast est de crée , visité et suprimé des arbres syntaxique.
+
+3- cette ligne de code renvoi une erreur si les caractere traité ne son pas valide.

@@ -1,0 +1,9 @@
+question 1: 
+
+la methode qui encapsule le programme dans une fonction principal est : FunDecl *analyze_program(Expr &).
+elle crée tout d'abord un vector de parametre de la fonction main ( ici aucun parametre donc vide), puis insere l'expression dans une sequence appeler main_body (sequence est composé d'un vector d'expression), declare la fonction main avec tout les parametre cité précédement, pour enfin la renvoyé.
+
+question 2:
+
+Il est nécessaire d'appeler la fonction enter_primitive dans le constructeur de la class Binder car : certaine fonction son integrer dans le compilateur, c'est a dire qu'on peut faire apelle a ces fonctions sans les déclarer au préalable dans le code.
+
